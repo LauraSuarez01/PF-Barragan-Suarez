@@ -1,0 +1,11 @@
+{
+  "name": "preentrega3",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola 👋, soy Laura Daniela Barragan</h1>\r <h3 align=\"center\">Aprendo desarrollo web en CoderHouse,este es mi primer proyecto web, donde desarrollo mi propio site de mi studio creativo, deseo les guste.</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
