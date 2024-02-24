@@ -20,16 +20,14 @@ nav {
   font-family: kalnia;
   padding: 20px 0px;
 }
-
-.nav-item {
+nav .nav-item {
   background-color: #fce3e3;
   display: flex;
   color: #360101;
   padding: 0px 40px;
   font-size: 28px;
 }
-
-.nav:hover {
+nav .nav-item .hav:hover {
   color: blue;
   text-decoration: underline;
   cursor: pointer;

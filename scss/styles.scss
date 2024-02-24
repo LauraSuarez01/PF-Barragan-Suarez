@@ -11,37 +11,37 @@
     background-color: #fce3e3;
     }
 
-nav {
-        display: flex;
-        justify-content:space-around;
-        color:#360101;
-        text-decoration: none;
-        background-color:#fce3e3;
-        font-family: kalnia;
-        padding: 20px 0px;}
-
-        .nav-item {
+nav { 
+    display: flex;
+    justify-content:space-around;
+    color:#360101;
+    text-decoration: none;
+    background-color:#fce3e3;
+    font-family: kalnia;
+    padding: 20px 0px;
+    .nav-item {
             background-color: #fce3e3;
             display: flex;
             color: #360101;
             padding: 0px 40px;
             font-size: 28px;
-    }      
-            .nav:hover {
+        .hav:hover {
                 color: blue;
                 text-decoration: underline;
                 cursor: pointer;
+
+        }
     }
+ }
                 .textointroductorio:hover::before {
                     content: '💟' ; 
-                
-            }
+                     }
                     .textointroductorio:hover::after {
                         content: '💟' ;
-}
+                        }
                         .inicio-servicios:hover:before {
                             content: '💻';
-}
+                            }
                             .barra {
                                 display: flex;
                                 justify-content: space-around;
@@ -49,17 +49,17 @@ nav {
                                 font-size: 18pt;
                                 padding: 10px 100px;
                                 font-family: kalnia;
-                }
+                                 }
                                 .introducción {
                                     display: flex;
                                     justify-content: center;
-                                    }
+                                      }
                                     .banner-inicial {
                                         justify-content: center;
                                         padding: 30px 0px;
                                         height: 50%;
                                         background-color: white;
-                                    }
+                                          }
                                         .textointroductorio {
                                             text-align: center;
                                             font-size: 40pt;
@@ -67,26 +67,26 @@ nav {
                                             font-family: kalnia;
                                             background-color: white;
                                             padding: 50px 0px;
-                                        }
+                                              }
                                             .parrafo1-container {
                                                 text-align: center;
                                                 font-size: 20pt;
                                                 color:#360101;
                                                 padding: 80px;
                                                 font-family: red hat display;
-                                            }
+                                                  }
                                                 .question {
                                                     font-size: 20pt;
                                                     color:#360101;
                                                     font-family: red hat display;
-                                                }
+                                                      }
                                                     .inicio-servicios { 
                                                         background-color: white;
                                                         padding: 10px 30px;
                                                         margin: 30px 0px;
                                                         font-family: kalnia;
                                                         text-align: center;
-                                                    }
+                                                          }
                                                         .cardscontainer-grid {
                                                             font-family: red hat display;
                                                             display: grid;
@@ -98,24 +98,24 @@ nav {
                                                             grid-template-areas: 
                                                             'branding socialmedia marketing';
                                                             padding: 30px 30px;
-                                                        }
+                                                              }
                                                             .card card-body {
                                                                 border: 1px solid rgb(219, 219, 219);
                                                                 padding: 30px 30px;
                                                                 background-color: white;
-                                                            }
+                                                                 }
                                                                 footer {
                                                                     padding: 20px 10px;
                                                                     margin: 50px;
                                                                     background-color: white;
                                                                     font-family: kalnia;
-                                                                }
+                                                                     }
                                                                     .final {
                                                                         text-align: center;
                                                                         background-color: white;
                                                                         color: #360101;
-                                                                    }
-                                                                    /*mobile*/
+                                                                       }
+/*mobile*/
 @media screen and (max-width: 480px) {
     .cardgrid-mobile {
         grid-template-rows:  1fr;
