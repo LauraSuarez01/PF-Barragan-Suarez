@@ -1,3 +1,114 @@
-
+@charset "UTF-8";
+.logo {
+  width: 80px;
+  height: 80px;
+  padding: 10xp 0px;
+  margin: 2% 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #fce3e3;
+}
+.logo nav {
+  display: flex;
+  justify-content: space-around;
+  color: #360101;
+  text-decoration: none;
+  background-color: #fce3e3;
+  font-family: kalnia;
+  padding: 20px 0px;
+}
+.logo nav .nav-item {
+  background-color: #fce3e3;
+  display: flex;
+  color: #360101;
+  padding: 0px 40px;
+  font-size: 28px;
+}
+.logo nav .nav-item .nav:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before {
+  content: "💟";
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after {
+  content: "💟";
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before {
+  content: "💻";
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 18pt;
+  padding: 10px 100px;
+  font-family: kalnia;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción {
+  display: flex;
+  justify-content: center;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial {
+  justify-content: center;
+  padding: 30px 0px;
+  height: 50%;
+  background-color: white;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio {
+  text-align: center;
+  font-size: 40pt;
+  color: #360101;
+  font-family: kalnia;
+  background-color: white;
+  padding: 50px 0px;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container {
+  text-align: center;
+  font-size: 20pt;
+  color: #360101;
+  padding: 80px;
+  font-family: red hat display;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question {
+  font-size: 20pt;
+  color: #360101;
+  font-family: red hat display;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios {
+  background-color: white;
+  padding: 10px 30px;
+  margin: 30px 0px;
+  font-family: kalnia;
+  text-align: center;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid {
+  font-family: red hat display;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat 3, 600px;
+  grid-template-columns: repeat 3, 1fr;
+  gap: 100px;
+  align-content: flex-start;
+  grid-template-areas: "branding socialmedia marketing";
+  padding: 30px 30px;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid .card card-body {
+  border: 1px solid rgb(219, 219, 219);
+  padding: 30px 30px;
+  background-color: white;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid .card card-body footer {
+  padding: 20px 10px;
+  margin: 50px;
+  background-color: white;
+  font-family: kalnia;
+}
+.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid .card card-body footer .final {
+  text-align: center;
+  background-color: white;
+  color: #360101;
+}
 
 /*# sourceMappingURL=styles.css.map */
