@@ -8,7 +8,8 @@
   justify-content: center;
   background-color: #fce3e3;
 }
-.logo nav {
+
+nav {
   display: flex;
   justify-content: space-around;
   color: #360101;
@@ -17,28 +18,34 @@
   font-family: kalnia;
   padding: 20px 0px;
 }
-.logo nav .nav-item {
+
+.nav-item {
   background-color: #fce3e3;
   display: flex;
   color: #360101;
   padding: 0px 40px;
   font-size: 28px;
 }
-.logo nav .nav-item .nav:hover {
+
+.nav:hover {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before {
+
+.textointroductorio:hover::before {
   content: "💟";
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after {
+
+.textointroductorio:hover::after {
   content: "💟";
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before {
+
+.inicio-servicios:hover:before {
   content: "💻";
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra {
+
+.barra {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
@@ -46,17 +53,20 @@
   padding: 10px 100px;
   font-family: kalnia;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción {
+
+.introducción {
   display: flex;
   justify-content: center;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial {
+
+.banner-inicial {
   justify-content: center;
   padding: 30px 0px;
   height: 50%;
   background-color: white;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio {
+
+.textointroductorio {
   text-align: center;
   font-size: 40pt;
   color: #360101;
@@ -64,26 +74,30 @@
   background-color: white;
   padding: 50px 0px;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container {
+
+.parrafo1-container {
   text-align: center;
   font-size: 20pt;
   color: #360101;
   padding: 80px;
   font-family: red hat display;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question {
+
+.question {
   font-size: 20pt;
   color: #360101;
   font-family: red hat display;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios {
+
+.inicio-servicios {
   background-color: white;
   padding: 10px 30px;
   margin: 30px 0px;
   font-family: kalnia;
   text-align: center;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid {
+
+.cardscontainer-grid {
   font-family: red hat display;
   display: grid;
   justify-content: center;
@@ -94,21 +108,53 @@
   grid-template-areas: "branding socialmedia marketing";
   padding: 30px 30px;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid .card card-body {
+
+.card card-body {
   border: 1px solid rgb(219, 219, 219);
   padding: 30px 30px;
   background-color: white;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid .card card-body footer {
+
+footer {
   padding: 20px 10px;
   margin: 50px;
   background-color: white;
   font-family: kalnia;
 }
-.logo nav .nav-item .nav:hover .textointroductorio:hover::before .textointroductorio:hover::after .inicio-servicios:hover:before .barra .introducción .banner-inicial .textointroductorio .parrafo1-container .question .inicio-servicios .cardscontainer-grid .card card-body footer .final {
+
+.final {
   text-align: center;
   background-color: white;
   color: #360101;
+}
+
+/*mobile*/
+@media screen and (max-width: 480px) {
+  .cardgrid-mobile {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "card" "card" "card ";
+    gap: 90px;
+    grid-template-columns: min-content;
+  }
+  .textointroductorio {
+    font-size: 28pt;
+    padding: 20px 20px 20px 20px;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+  .cardgrid-mobile {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "card" "card" "card";
+    gap: 10px;
+    grid-template-columns: min-content;
+  }
+  .textointroductorio {
+    font-size: 30pt;
+    padding: 20px 20px 20px 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
