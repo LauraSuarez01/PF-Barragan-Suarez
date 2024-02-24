@@ -25,7 +25,7 @@ nav {
             color: #360101;
             padding: 0px 40px;
             font-size: 28px;
-        .hav:hover {
+        .nav:hover {
                 color: blue;
                 text-decoration: underline;
                 cursor: pointer;
@@ -34,28 +34,30 @@ nav {
     }
  }
 
-    .textointroductorio {
+ .textointro:hover::before {
+    content: '💟' ;
+    .textointro:hover::after {
+        content: '💟' ; 
+    }
+}
+
+ .textointro {
     text-align: center;
     font-size: 40pt;
     color:#360101;
     font-family: kalnia;
     background-color: white;
-    padding: 50px 0px;
-    .textointroductorio:hover::before {
-    content: '💟' ;
-    .textointroductorio:hover::after {
-    content: '💟' ;
+    padding: 50px 0px;      
+ 
     .banner-inicial {
     justify-content: center;
     padding: 30px 0px;
     height: 50%;
     background-color: white;
                             
-            }
-        }
-     }
- }
-       
+    }
+ }     
+
     .parrafo1-container {
     text-align: center;
     font-size: 20pt;
@@ -124,7 +126,7 @@ nav {
         gap: 90px;
         grid-template-columns: min-content;
     }
-    .textointroductorio {
+    .textointro {
         font-size: 28pt;
         padding: 20px 20px 20px 20px;
     }
@@ -142,7 +144,7 @@ nav {
         grid-template-columns: min-content;
     }
 
-    .textointroductorio {
+    .textointro {
         font-size: 30pt;
         padding: 20px 20px 20px 20px;
     }

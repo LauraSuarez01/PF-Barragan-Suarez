@@ -27,13 +27,20 @@ nav .nav-item {
   padding: 0px 40px;
   font-size: 28px;
 }
-nav .nav-item .hav:hover {
+nav .nav-item .nav:hover {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.textointroductorio {
+.textointro:hover::before {
+  content: "💟";
+}
+.textointro:hover::before .textointro:hover::after {
+  content: "💟";
+}
+
+.textointro {
   text-align: center;
   font-size: 40pt;
   color: #360101;
@@ -41,13 +48,7 @@ nav .nav-item .hav:hover {
   background-color: white;
   padding: 50px 0px;
 }
-.textointroductorio .textointroductorio:hover::before {
-  content: "💟";
-}
-.textointroductorio .textointroductorio:hover::before .textointroductorio:hover::after {
-  content: "💟";
-}
-.textointroductorio .textointroductorio:hover::before .textointroductorio:hover::after .banner-inicial {
+.textointro .banner-inicial {
   justify-content: center;
   padding: 30px 0px;
   height: 50%;
@@ -116,7 +117,7 @@ footer .final {
     gap: 90px;
     grid-template-columns: min-content;
   }
-  .textointroductorio {
+  .textointro {
     font-size: 28pt;
     padding: 20px 20px 20px 20px;
   }
@@ -130,7 +131,7 @@ footer .final {
     gap: 10px;
     grid-template-columns: min-content;
   }
-  .textointroductorio {
+  .textointro {
     font-size: 30pt;
     padding: 20px 20px 20px 20px;
   }
