@@ -1,0 +1,75 @@
+.sub-proy {
+    font-family: kalnia;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+.sub-proy:hover::before {
+    content: '📞';
+}
+
+.parrafo-contacto {
+    font-family: red hat display;
+    text-align: center;
+    font-size: 20pt;
+    padding: 30px 200px 30px 30px;
+
+    @media screen and (max-width: 480px) {
+       
+            font-size: 18pt;
+            padding: 20px 20px 20px 20px;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 980px) {
+        font-size: 20pt;
+        padding: 20px 20px 20px 20px;}
+    }
+
+form {
+    font-family: red hat display;
+    display:flexbox;
+    justify-content:center;
+    padding: 60px 700px;
+    .formulario {
+        display:flex;
+        border: 1px solid #360101;
+        padding: 10px;
+        margin: 20px;
+        font-family: red hat display;
+        .formulario-container {
+            display: inline;
+            margin: 50px 500px 50px 500px;
+
+
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: 70px;
+        margin: 0px;
+        justify-content: center;
+        grid-template-rows:  1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'mb-3' 
+        'mb-3' 
+        'mb-3';
+        gap: 90px;
+        grid-template-columns: min-content;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 980px) {
+        padding: 70px;
+        margin: 0px;
+        justify-content: center;
+        grid-template-rows:  1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'mb-3' 
+        'mb-3' 
+        'mb-3';
+        gap: 90px;
+        grid-template-columns: min-content;
+    }
+    .form-label {
+        font-size: 24px;
+     }
+
+}
