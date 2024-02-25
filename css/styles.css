@@ -1,6 +1,81 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Nunito&family=Playfair+Display:wght@700&family=Poppins:wght@600&display=swap"); /*titulos*/
 @import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Nunito&family=Playfair+Display:wght@700&family=Poppins:wght@600&family=Red+Hat+Display&display=swap"); /*cuerpos-bloquestexto*/
+.intro-servicios {
+  padding: 70px 70px;
+  text-align: center;
+  font-size: 19pt;
+  color: #360101;
+  font-family: red hat display;
+  background-color: #fce3e3;
+}
+.intro-servicios .titulo-servicios {
+  text-align: center;
+  justify-content: center;
+  font-size: 30pt;
+  color: #360101;
+  padding: 40px 150px;
+  font-family: kalnia;
+}
+
+.titulo-servicios:hover:before {
+  content: "💫";
+}
+
+.sub-servicios {
+  text-align: center;
+  font-size: 30pt;
+  color: #360101;
+  padding: 40px 40px 40px 40px;
+  margin: auto;
+  font-family: kalnia;
+  background-color: white;
+}
+
+.sm-img {
+  display: grid;
+  justify-content: center;
+}
+
+.sm-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 100px;
+  text-align: center;
+  font-size: 20pt;
+  color: #360101;
+  font-family: red hat display;
+}
+.sm-container .p-servicios {
+  text-align: center;
+  font-family: red hat display;
+  font-size: 28px;
+}
+.sm-container .p-servicios .boton {
+  display: flexbox;
+  justify-content: flex-end;
+  font-size: 24pt;
+  font-family: kalnia;
+}
+@media screen and (max-width: 480px) {
+  .sm-container {
+    grid-template-rows: 3fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "sub-servicios" "sm-img" "sm.container";
+    gap: 90px;
+    grid-template-columns: min-content;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+  .sm-container {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "sub-servicios" "sm-img" "sm.container";
+    gap: 90px;
+    grid-template-columns: min-content;
+  }
+}
+
 .intro-no {
   align-content: center;
   text-align: center;
