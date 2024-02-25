@@ -1,0 +1,64 @@
+.ti-pro {
+    text-align: center;
+    font-size: 24pt;
+    color:#360101;
+    padding: 40px 40px 40px 40px;
+    font-family: kalnia; 
+}
+
+.ti-pro:hover:before {
+    content: '💡';
+}
+.su-pro {
+    text-align: center;
+    font-size: 22pt;
+    color:#360101;
+    padding: 40px 40px 40px 40px;
+    font-family: kalnia; 
+    background-color:#fce3e3;
+}
+
+.img-pro {
+    display: grid;
+    justify-content: space-around;
+    grid-template-rows: repeat (1, 1fr);
+    grid-template-columns:repeat (1, 1fr);
+    gap: 30px;
+   padding: 50px;
+    .img-p1{
+        .img-p2 {
+            .img-p3 {
+        
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        grid-template-rows:1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'img-p1'
+        'img-p2'
+        'img-p3';
+        gap: 90px;
+        grid-template-columns:min-content;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 980px) {
+            
+        grid-template-rows:  1fr;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        'sub-servicios'
+        'sm-img'
+        'sm.container';
+        gap: 90px;
+        grid-template-columns: min-content;
+    } 
+}
+
+.p-pro {
+    font-family: red hat display;
+    font-size:18pt;
+    background-color: white;
+    padding: 30px 100px 30px 100px;
+}
