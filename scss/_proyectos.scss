@@ -1,6 +1,6 @@
 
 @import '../scss/componentes/variables';
-
+@import '../scss/componentes/mixins';
 .ti-pro {
     @extend %titulo;
     text-align: center;
@@ -50,8 +50,7 @@
 }
 
 .p-pro {
-    font-family: red hat display;
-    font-size:18pt;
-    background-color: white;
+    @include parrafo(23pt,red hat display, $color-font);
+    background-color:$color-bac;
     padding: 30px 100px 30px 100px;
 }

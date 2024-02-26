@@ -1,12 +1,11 @@
 
 @import '../scss/componentes/variables';
+@import '../scss/componentes/mixins';
 
 .intro-servicios {
     padding: 70px 70px;
     text-align: center;
-    font-size: 19pt;
-    color:$color-font;
-    font-family: red hat display;
+    @include parrafo(24pt,red hat display, $color-font);
     background-color:$color-bac2;
     .titulo-servicios{
     text-align: center;
@@ -41,8 +40,7 @@
     font-family: red hat display;
       .p-servicios {
         text-align: center;
-        font-family: red hat display;
-        font-size: 28px;
+        @include parrafo(22pt,red hat display, $color-font);
     .boton {
     display:flexbox;
     justify-content:flex-end;

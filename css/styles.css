@@ -44,8 +44,9 @@
 }
 
 .p-pro {
+  font-size: 23pt;
   font-family: red hat display;
-  font-size: 18pt;
+  color: #360101;
   background-color: white;
   padding: 30px 100px 30px 100px;
 }
@@ -53,9 +54,9 @@
 .intro-servicios {
   padding: 70px 70px;
   text-align: center;
-  font-size: 19pt;
-  color: #360101;
+  font-size: 24pt;
   font-family: red hat display;
+  color: #360101;
   background-color: #fdf1f1;
 }
 .intro-servicios .titulo-servicios {
@@ -91,8 +92,9 @@
 }
 .sm-container .p-servicios {
   text-align: center;
+  font-size: 22pt;
   font-family: red hat display;
-  font-size: 28px;
+  color: #360101;
 }
 .sm-container .p-servicios .boton {
   display: flexbox;
@@ -122,11 +124,11 @@
 .intro-no {
   align-content: center;
   text-align: center;
+  font-size: 26pt;
   font-family: red hat display;
   color: #360101;
   padding: 50px 50px;
   background-color: #fce3e3;
-  font-size: 28px;
 }
 .intro-no .ti-no {
   text-align: center;
@@ -140,8 +142,8 @@
 .per-lauh {
   display: flex;
   justify-content: space-between;
+  font-size: 22pt;
   font-family: red hat display;
-  font-size: 23px;
   color: #360101;
   margin: 100px 100px 100px 100px;
 }
@@ -186,9 +188,10 @@
 }
 
 .parrafo-contacto {
+  font-size: 24pt;
   font-family: red hat display;
+  color: #360101;
   text-align: center;
-  font-size: 20pt;
   padding: 30px 200px 30px 30px;
 }
 @media screen and (max-width: 480px) {
@@ -313,16 +316,16 @@ nav .nav-item .nav:hover {
 }
 
 .parrafo1-container {
-  text-align: center;
-  font-size: 20pt;
+  font-size: 24pt;
+  font-family: red hat display;
   color: #360101;
   padding: 80px;
   font-family: red hat display;
 }
 .parrafo1-container .question {
-  font-size: 20pt;
-  color: #360101;
+  font-size: 26pt;
   font-family: red hat display;
+  color: #360101;
 }
 
 .inicio-servicios:hover:before {
@@ -337,7 +340,10 @@ nav .nav-item .nav:hover {
 }
 
 .cardscontainer-grid {
+  font-size: 16pt;
   font-family: red hat display;
+  color: #360101;
+  padding: 80px;
   display: grid;
   justify-content: center;
   grid-template-rows: repeat 3, 600px;

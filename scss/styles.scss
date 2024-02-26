@@ -64,15 +64,11 @@ nav {
 }     
 
     .parrafo1-container {
-    text-align: center;
-    font-size: 20pt;
-    color:$color-font;
+    @include parrafo(24pt,red hat display, $color-font);
     padding: 80px;
     font-family: red hat display;
     .question {
-     font-size: 20pt;
-     color:$color-font;
-     font-family: red hat display;
+     @include parrafo(26pt,red hat display, $color-font);
     } 
 }
      
@@ -89,7 +85,8 @@ nav {
 }
                                         
     .cardscontainer-grid {
-     font-family: red hat display;
+        @include parrafo(16pt,red hat display, $color-font);
+        padding: 80px;
       display: grid;
       justify-content: center;
       grid-template-rows: repeat (3, 600px);

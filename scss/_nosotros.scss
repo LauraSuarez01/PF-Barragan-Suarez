@@ -1,13 +1,13 @@
 @import '../scss/componentes/variables';
+@import '../scss/componentes/mixins';
+
 
 .intro-no {
     align-content: center ;
     text-align: center;
-    font-family:red hat display;
-    color: $color-font;
+    @include parrafo(26pt,red hat display, $color-font);
     padding: 50px 50px;
     background-color: $color-bac3;
-    font-size: 28px;
 
     .ti-no {
         text-align: center;
@@ -22,9 +22,7 @@
 .per-lauh { 
     display: flex;
     justify-content:space-between;
-    font-family: red hat display;
-    font-size: 23px;
-    color: $color-font;
+    @include parrafo(22pt,red hat display, $color-font);
     margin: 100px 100px 100px 100px;
     
 
