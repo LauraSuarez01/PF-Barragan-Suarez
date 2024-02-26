@@ -1,10 +1,12 @@
+@import '../scss/componentes/variables';
+
 .intro-no {
     align-content: center ;
     text-align: center;
     font-family:red hat display;
-    color: #360101;
+    color: $color-font;
     padding: 50px 50px;
-    background-color: #fdf1f1;
+    background-color: $color-bac3;
     font-size: 28px;
 
     .ti-no {
@@ -23,7 +25,7 @@
     justify-content:space-between;
     font-family: red hat display;
     font-size: 23px;
-    color: #360101;
+    color: $color-font;
     margin: 100px 100px 100px 100px;
     
 

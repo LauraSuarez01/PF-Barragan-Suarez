@@ -19,7 +19,7 @@
   color: #360101;
   padding: 40px 40px 40px 40px;
   font-family: kalnia;
-  background-color: #fce3e3;
+  background-color: #fdf1f1;
 }
 
 .img-pro {
@@ -62,7 +62,7 @@
   font-size: 19pt;
   color: #360101;
   font-family: red hat display;
-  background-color: #fce3e3;
+  background-color: #fdf1f1;
 }
 .intro-servicios .titulo-servicios {
   text-align: center;
@@ -137,7 +137,7 @@
   font-family: red hat display;
   color: #360101;
   padding: 50px 50px;
-  background-color: #fdf1f1;
+  background-color: #fce3e3;
   font-size: 28px;
 }
 .intro-no .ti-no {
@@ -269,11 +269,10 @@ form .form-label {
 .logo {
   width: 80px;
   height: 80px;
-  padding: 10xp 0px;
+  padding: 10xp 20px;
   margin: 2% 50%;
   display: flex;
   justify-content: center;
-  background-color: #fce3e3;
 }
 
 nav {
@@ -358,7 +357,7 @@ nav .nav-item .nav:hover {
   padding: 30px 30px;
 }
 .cardscontainer-grid .card card-body {
-  border: 1px solid rgb(219, 219, 219);
+  border: 1px solid white 219, 219, 219;
   padding: 30px 30px;
   background-color: white;
 }

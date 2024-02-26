@@ -1,7 +1,10 @@
+
+@import '../scss/componentes/variables';
+
 .ti-pro {
     text-align: center;
     font-size: 24pt;
-    color:#360101;
+    color:$color-font;
     padding: 40px 40px 40px 40px;
     font-family: kalnia; 
 }
@@ -12,10 +15,10 @@
 .su-pro {
     text-align: center;
     font-size: 22pt;
-    color:#360101;
+    color:$color-font;
     padding: 40px 40px 40px 40px;
     font-family: kalnia; 
-    background-color:#fce3e3;
+    background-color:$color-bac2;
 }
 
 .img-pro {
