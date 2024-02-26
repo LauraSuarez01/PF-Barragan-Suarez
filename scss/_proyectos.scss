@@ -2,22 +2,18 @@
 @import '../scss/componentes/variables';
 
 .ti-pro {
+    @extend %titulo;
     text-align: center;
-    font-size: 24pt;
-    color:$color-font;
-    padding: 40px 40px 40px 40px;
-    font-family: kalnia; 
+    padding: 40px 40px 40px 40px; 
 }
 
 .ti-pro:hover:before {
     content: '💡';
 }
 .su-pro {
+    @extend %subtitu;
     text-align: center;
-    font-size: 22pt;
-    color:$color-font;
-    padding: 40px 40px 40px 40px;
-    font-family: kalnia; 
+    padding: 40px 40px 40px 40px; 
     background-color:$color-bac2;
 }
 

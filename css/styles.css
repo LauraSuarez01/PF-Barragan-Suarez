@@ -3,10 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Nunito&family=Playfair+Display:wght@700&family=Poppins:wght@600&family=Red+Hat+Display&display=swap"); /*cuerpos-bloquestexto*/
 .ti-pro {
   text-align: center;
-  font-size: 24pt;
-  color: #360101;
   padding: 40px 40px 40px 40px;
-  font-family: kalnia;
 }
 
 .ti-pro:hover:before {
@@ -15,10 +12,7 @@
 
 .su-pro {
   text-align: center;
-  font-size: 22pt;
-  color: #360101;
   padding: 40px 40px 40px 40px;
-  font-family: kalnia;
   background-color: #fdf1f1;
 }
 
@@ -67,10 +61,7 @@
 .intro-servicios .titulo-servicios {
   text-align: center;
   justify-content: center;
-  font-size: 30pt;
-  color: #360101;
   padding: 40px 150px;
-  font-family: kalnia;
 }
 
 .titulo-servicios:hover:before {
@@ -79,11 +70,8 @@
 
 .sub-servicios {
   text-align: center;
-  font-size: 30pt;
-  color: #360101;
   padding: 40px 40px 40px 40px;
   margin: auto;
-  font-family: kalnia;
   background-color: white;
 }
 
@@ -142,8 +130,6 @@
 }
 .intro-no .ti-no {
   text-align: center;
-  font-family: kalnia;
-  font-size: 42px;
   padding: 50px 50px;
 }
 
@@ -161,8 +147,6 @@
 }
 .per-lauh .ti-lauh {
   text-align: center;
-  font-family: kalnia;
-  font-size: 42px;
   padding: 50px 50px;
 }
 .per-lauh .ti-lauh .p-lauh {
@@ -193,7 +177,6 @@
 }
 
 .sub-proy {
-  font-family: kalnia;
   text-align: center;
   padding: 30px 30px 30px 30px;
 }
@@ -266,6 +249,18 @@ form .form-label {
   font-size: 24px;
 }
 
+.textointro, .ti-pro, .intro-servicios .titulo-servicios, .intro-no .ti-no, .sub-proy {
+  color: #360101;
+  font-size: 42pt;
+  font-family: kalnia;
+}
+
+footer .final, .inicio-servicios, .su-pro, .sub-servicios, .per-lauh .ti-lauh {
+  color: #360101;
+  font-size: 30pt;
+  font-family: kalnia;
+}
+
 .logo {
   width: 80px;
   height: 80px;
@@ -307,9 +302,6 @@ nav .nav-item .nav:hover {
 
 .textointro {
   text-align: center;
-  font-size: 40pt;
-  color: #360101;
-  font-family: kalnia;
   background-color: white;
   padding: 50px 0px;
 }
@@ -341,7 +333,6 @@ nav .nav-item .nav:hover {
   background-color: white;
   padding: 10px 30px;
   margin: 30px 0px;
-  font-family: kalnia;
   text-align: center;
 }
 
@@ -371,7 +362,6 @@ footer {
 footer .final {
   text-align: center;
   background-color: white;
-  color: #360101;
 }
 
 /*mobile*/

@@ -11,8 +11,7 @@
 
     .ti-no {
         text-align: center;
-        font-family: kalnia;
-        font-size: 42px;
+        @extend %titulo;
         padding: 50px 50px;
     }
 }
@@ -31,8 +30,7 @@
 
     .ti-lauh { 
         text-align: center;
-        font-family: kalnia;
-        font-size: 42px;
+        @extend %subtitu;
         padding: 50px 50px;
         .p-lauh {
             padding: 100px 100px;
