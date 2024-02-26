@@ -71,7 +71,27 @@ nav {
      @include parrafo(26pt,red hat display, $color-font);
     } 
 }
-     
+
+.tracking-in-expand-fwd {
+	animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
 
 .inicio-servicios:hover:before {
     content: '💻';}
@@ -100,7 +120,7 @@ nav {
       border: 1px solid $color-bac(219, 219, 219);
        padding: 30px 30px;
         background-color:$color-bac;
-            
+           
         }
         
     }
